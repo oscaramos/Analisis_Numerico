@@ -1,0 +1,185 @@
+object WMainForm: TWMainForm
+  Left = 138
+  Height = 793
+  Top = 17
+  Width = 1199
+  Caption = 'TCmdBox Example Application'
+  ClientHeight = 793
+  ClientWidth = 1199
+  Color = clForm
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '1.8.2.0'
+  object Splitter1: TSplitter
+    Left = 1194
+    Height = 793
+    Top = 0
+    Width = 5
+    Align = alRight
+    Beveled = True
+    ResizeAnchor = akRight
+  end
+  object CmdBox: TCmdBox
+    Left = 8
+    Height = 273
+    Top = 520
+    Width = 816
+    PopupMenu = PopupMenu1
+    CaretColor = 33023
+    CaretType = cartUser
+    CaretWidth = 1
+    CaretHeight = 15
+    CaretYShift = 3
+    OnInput = CmdBoxInput
+    LineCount = 1000
+    Font.Color = clSilver
+    Font.Height = -16
+    BackGroundColor = clInfoText
+    TabWidth = 60
+    PassWordChar = '*'
+    HistoryMax = 10
+    InputSelColor = clPurple
+    InputSelBackGround = clSilver
+    CaretInterval = 500
+    EscapeCodeType = esctCmdBox
+    GraphicalCharacterWidth = 10
+    OnClick = CmdBoxClick
+  end
+  object chrMain: TChart
+    Left = 0
+    Height = 520
+    Top = 0
+    Width = 824
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clBlack
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Color = clWhite
+    object chrXaxis: TConstantLine
+      Pen.Color = clWhite
+      Position = 0
+    end
+    object chrYaxis: TConstantLine
+      LineStyle = lsVertical
+      Pen.Color = clWhite
+      Position = 0
+    end
+    object chrPointsLineSeries: TLineSeries
+    end
+    object chrMainAreaSeries1: TAreaSeries
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 824
+    Height = 768
+    Top = 0
+    Width = 368
+    ActivePage = Documentation
+    TabIndex = 1
+    TabOrder = 3
+    object Variables: TTabSheet
+      Caption = 'Variables'
+      ClientHeight = 735
+      ClientWidth = 360
+      object stgVars: TStringGrid
+        Left = 0
+        Height = 736
+        Top = 0
+        Width = 352
+        ColCount = 3
+        Columns = <        
+          item
+            Title.Alignment = taCenter
+            Title.Caption = 'Name'
+            Width = 70
+          end        
+          item
+            Title.Alignment = taCenter
+            Title.Caption = 'Value'
+            Width = 178
+          end        
+          item
+            Title.Alignment = taCenter
+            Title.Caption = 'Type'
+            Width = 93
+          end>
+        FixedCols = 0
+        TabOrder = 0
+        ColWidths = (
+          70
+          178
+          93
+        )
+      end
+    end
+    object Documentation: TTabSheet
+      Caption = 'Documentation'
+      ClientHeight = 735
+      ClientWidth = 360
+      object memDoc: TMemo
+        Left = 0
+        Height = 728
+        Top = 0
+        Width = 352
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -17
+        Font.Name = 'Consolas'
+        Font.Pitch = fpFixed
+        Font.Quality = fqDraft
+        Lines.Strings = (
+          'memDoc'
+        )
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssVertical
+        TabOrder = 0
+        WantTabs = True
+      end
+    end
+  end
+  object ReaderTimer: TTimer
+    Interval = 500
+    OnTimer = ReaderTimerTimer
+    left = 72
+    top = 616
+  end
+  object ProcessTimer: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = ProcessTimerTimer
+    left = 160
+    top = 616
+  end
+  object FontDialog: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 248
+    top = 616
+  end
+  object PopupMenu1: TPopupMenu
+    left = 336
+    top = 616
+    object MenuItem1: TMenuItem
+      Caption = 'Nothing here'
+    end
+  end
+end

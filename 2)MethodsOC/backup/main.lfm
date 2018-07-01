@@ -1,0 +1,204 @@
+object frmMethodsOC: TfrmMethodsOC
+  Left = 666
+  Height = 521
+  Top = 251
+  Width = 1081
+  Caption = 'Graphics'
+  ClientHeight = 521
+  ClientWidth = 1081
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object pnlRight: TPanel
+    Left = 866
+    Height = 517
+    Top = 2
+    Width = 213
+    Align = alRight
+    BorderSpacing.Around = 2
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 517
+    ClientWidth = 213
+    TabOrder = 0
+    object trbMax: TTrackBar
+      Left = 96
+      Height = 25
+      Top = 40
+      Width = 78
+      Max = 100
+      Min = 1
+      OnChange = trbMaxChange
+      Position = 1
+      TabOrder = 0
+    end
+    object trbMin: TTrackBar
+      Left = 16
+      Height = 25
+      Top = 40
+      Width = 84
+      Max = -1
+      Min = -100
+      OnChange = trbMinChange
+      Position = -1
+      TabOrder = 1
+    end
+    object chkProportional: TCheckBox
+      Left = 31
+      Height = 24
+      Top = 8
+      Width = 109
+      Caption = 'Porporcional'
+      OnChange = chkProportionalChange
+      TabOrder = 2
+    end
+    object ediPointX: TEdit
+      Left = 19
+      Height = 28
+      Top = 88
+      Width = 48
+      TabOrder = 3
+      Text = '1'
+    end
+    object ediPointY: TEdit
+      Left = 80
+      Height = 28
+      Top = 88
+      Width = 56
+      TabOrder = 4
+      Text = '1'
+    end
+    object btnPoint: TButton
+      Left = 144
+      Height = 25
+      Top = 91
+      Width = 59
+      Caption = 'Point'
+      OnClick = btnPointClick
+      TabOrder = 5
+    end
+    object EdiBeginInterval: TEdit
+      Left = 16
+      Height = 28
+      Top = 168
+      Width = 48
+      TabOrder = 6
+      Text = '-1'
+    end
+    object EdiEndInterval: TEdit
+      Left = 80
+      Height = 28
+      Top = 168
+      Width = 56
+      TabOrder = 7
+      Text = '1'
+    end
+    object cmb_biseccion: TComboBox
+      Left = 19
+      Height = 28
+      Top = 264
+      Width = 125
+      ItemHeight = 20
+      TabOrder = 8
+      Text = 'cmb_biseccion'
+    end
+    object cmb_mode: TComboBox
+      Left = 19
+      Height = 28
+      Top = 304
+      Width = 125
+      ItemHeight = 20
+      TabOrder = 9
+      Text = 'cmb_mode'
+    end
+    object btn_calculate: TButton
+      Left = 31
+      Height = 31
+      Top = 352
+      Width = 94
+      Caption = 'Calculate'
+      OnClick = btn_calculateClick
+      TabOrder = 10
+    end
+    object lbl_Interval: TLabel
+      Left = 19
+      Height = 20
+      Top = 136
+      Width = 52
+      Caption = 'Interval:'
+      ParentColor = False
+    end
+    object Label1: TLabel
+      Left = 16
+      Height = 20
+      Top = 224
+      Width = 13
+      Caption = 'x₀'
+      ParentColor = False
+    end
+    object ediX0: TEdit
+      Left = 40
+      Height = 28
+      Top = 216
+      Width = 56
+      TabOrder = 11
+      Text = '0'
+    end
+  end
+  object chartGraphics: TChart
+    Left = 0
+    Height = 521
+    Top = 0
+    Width = 864
+    AxisList = <    
+      item
+        Grid.Color = clSilver
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Grid.Color = clSilver
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clWhite
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alClient
+    object chartGraphicsFuncSeries1: TFuncSeries
+      Active = False
+      OnCalculate = chartGraphicsFuncSeries1Calculate
+    end
+    object chartGraphicsFuncSeries2: TFuncSeries
+      Active = False
+      OnCalculate = chartGraphicsFuncSeries2Calculate
+    end
+    object chartGraphicsFuncSeries3: TFuncSeries
+      Active = False
+      OnCalculate = chartGraphicsFuncSeries3Calculate
+    end
+    object chartGraphicsConstantLine1: TConstantLine
+      Arrow.Visible = True
+      LineStyle = lsVertical
+      Position = 0
+    end
+    object chartGraphicsConstantLine2: TConstantLine
+      Arrow.Visible = True
+      Position = 0
+    end
+    object chartGraphicsLineSeries1: TLineSeries
+      Pointer.Brush.Color = 13553407
+      Pointer.Pen.Color = clRed
+      Pointer.Style = psCircle
+    end
+  end
+end

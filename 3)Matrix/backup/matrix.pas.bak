@@ -1,0 +1,56 @@
+unit matrix;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+  TMatrix = class
+    private
+      _matrix: array of array of Double;
+      _rows, _columns: Integer;
+    public
+      constructor create(rows: Integer; columns: Integer);
+      procedure setElement(i:Integer; j:Integer; e: Double);
+      function getElement(i:Integer; j:Integer): Double;
+
+      procedure printContent();
+  end;
+
+implementation
+
+  constructor TMatrix.create(rows: Integer; columns: Integer);
+  begin
+      setLength(_matrix, rows, columns);
+      _rows := rows;
+      _columns := columns;
+  end;
+
+  procedure TMatrix.setElement(i:Integer; j:Integer; e: Double);
+  begin
+      _matrix[i,j] := e;
+  end;
+
+  function TMatrix.getElement(i:Integer; j:Integer): Double;
+  begin
+      Result := _matrix[i,j];
+  end;
+
+  procedure TMatrix.printContent();
+  var
+    i,j: Integer;
+  begin
+    writeln(Length(_Matrix));
+    for i:= 0 to _rows-1 do begin
+        for j:=0 to _columns-1 do
+            write(Format('%.1f ',[_matrix[i,j]]));
+        writeln();
+        writeln();
+    end;
+  end;
+
+end.
+

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="Interpolation.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="75" Y="10"/>
+        <UsageCount Value="33"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="maininterpolation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Lagrangefrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mainInterpolation"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="19" Y="10"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="logicinterpolation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LogicInterpolation"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="24"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="graphic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Graphic"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="29" Y="3"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="mainGraphic.lfm"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\2)Graphic\main.pas"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="23" Y="13"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="graphic.lfm"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="40" Y="5"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\2)Graphic\main.lfm"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="34" Y="4"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="main.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="8"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="parsemath.pas"/>
+        <UnitName Value="ParseMath"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="36"/>
+        <CursorPos Y="59"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="class_bolzano.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="9"/>
+        <CursorPos X="40" Y="32"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="maininterpolation.lfm"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="64" Y="11"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit11>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="196" TopLine="168"/>
+      </Position1>
+      <Position2>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="197" TopLine="168"/>
+      </Position2>
+      <Position3>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="198" TopLine="168"/>
+      </Position3>
+      <Position4>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="199" TopLine="168"/>
+      </Position4>
+      <Position5>
+        <Filename Value="class_bolzano.pas"/>
+        <Caret Line="92" TopLine="85"/>
+      </Position5>
+      <Position6>
+        <Filename Value="class_bolzano.pas"/>
+        <Caret Line="97" Column="38" TopLine="85"/>
+      </Position6>
+      <Position7>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="196" TopLine="168"/>
+      </Position7>
+      <Position8>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="192" Column="31" TopLine="168"/>
+      </Position8>
+      <Position9>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="200" Column="31" TopLine="168"/>
+      </Position9>
+      <Position10>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="188" Column="62" TopLine="168"/>
+      </Position10>
+      <Position11>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="189" TopLine="168"/>
+      </Position11>
+      <Position12>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="202" TopLine="168"/>
+      </Position12>
+      <Position13>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="142" TopLine="123"/>
+      </Position13>
+      <Position14>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="82" Column="50" TopLine="66"/>
+      </Position14>
+      <Position15>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="77" TopLine="63"/>
+      </Position15>
+      <Position16>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="76" TopLine="63"/>
+      </Position16>
+      <Position17>
+        <Filename Value="parsemath.pas"/>
+        <Caret Line="55" TopLine="36"/>
+      </Position17>
+      <Position18>
+        <Filename Value="parsemath.pas"/>
+        <Caret Line="56" TopLine="36"/>
+      </Position18>
+      <Position19>
+        <Filename Value="parsemath.pas"/>
+        <Caret Line="57" TopLine="36"/>
+      </Position19>
+      <Position20>
+        <Filename Value="parsemath.pas"/>
+        <Caret Line="55" TopLine="36"/>
+      </Position20>
+      <Position21>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="76" TopLine="63"/>
+      </Position21>
+      <Position22>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="77" Column="9" TopLine="63"/>
+      </Position22>
+      <Position23>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="78" TopLine="63"/>
+      </Position23>
+      <Position24>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="79" TopLine="63"/>
+      </Position24>
+      <Position25>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="80" TopLine="63"/>
+      </Position25>
+      <Position26>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="81" TopLine="63"/>
+      </Position26>
+      <Position27>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="152" Column="49" TopLine="133"/>
+      </Position27>
+      <Position28>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="142" Column="14" TopLine="132"/>
+      </Position28>
+      <Position29>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="152" Column="67" TopLine="133"/>
+      </Position29>
+      <Position30>
+        <Filename Value="maininterpolation.pas"/>
+        <Caret Line="12" Column="34"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="x"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

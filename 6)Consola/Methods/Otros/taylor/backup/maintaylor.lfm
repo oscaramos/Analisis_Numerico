@@ -1,0 +1,168 @@
+object frmTaylor: TfrmTaylor
+  Left = 205
+  Height = 497
+  Top = 423
+  Width = 738
+  Caption = 'Taylor'
+  ClientHeight = 497
+  ClientWidth = 738
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '1.8.2.0'
+  object stgData: TStringGrid
+    Left = 0
+    Height = 425
+    Top = 72
+    Width = 434
+    Align = alClient
+    AlternateColor = 16579836
+    AutoFillColumns = True
+    ColCount = 3
+    Columns = <    
+      item
+        Alignment = taCenter
+        Title.Caption = 'N'
+        Width = 144
+      end    
+      item
+        Alignment = taRightJustify
+        Title.Caption = 'Xn'
+        Width = 144
+      end    
+      item
+        Alignment = taRightJustify
+        Title.Caption = 'Error'
+        Width = 145
+      end>
+    FixedCols = 0
+    Flat = True
+    TabOrder = 0
+    ColWidths = (
+      144
+      144
+      145
+    )
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 72
+    Top = 0
+    Width = 738
+    Align = alTop
+    ClientHeight = 72
+    ClientWidth = 738
+    TabOrder = 1
+    object BbtnExecute: TButton
+      AnchorSideLeft.Control = ediError
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = ediError
+      AnchorSideTop.Side = asrCenter
+      Left = 443
+      Height = 34
+      Top = 22
+      Width = 75
+      BorderSpacing.Left = 5
+      Caption = 'Execute'
+      OnClick = BbtnExecuteClick
+      TabOrder = 0
+    end
+    object ediError: TEdit
+      AnchorSideLeft.Control = ediX
+      AnchorSideLeft.Side = asrBottom
+      Left = 358
+      Height = 28
+      Top = 25
+      Width = 80
+      Alignment = taRightJustify
+      BorderSpacing.Left = 5
+      TabOrder = 1
+      Text = '0.0001'
+    end
+    object ediX: TEdit
+      AnchorSideLeft.Control = cboFunctions
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = cboFunctions
+      Left = 273
+      Height = 28
+      Top = 22
+      Width = 80
+      Alignment = taCenter
+      BorderSpacing.Left = 5
+      TabOrder = 2
+      Text = '30'
+    end
+    object Label1: TLabel
+      AnchorSideLeft.Control = ediX
+      AnchorSideTop.Control = ediX
+      AnchorSideBottom.Control = ediX
+      Left = 273
+      Height = 20
+      Top = 2
+      Width = 10
+      Anchors = [akLeft, akBottom]
+      Caption = 'x:'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      AnchorSideLeft.Control = ediError
+      AnchorSideBottom.Control = ediError
+      Left = 358
+      Height = 15
+      Top = 10
+      Width = 28
+      Anchors = [akLeft, akBottom]
+      AutoSize = False
+      Caption = 'Error:'
+      ParentColor = False
+    end
+    object cboFunctions: TComboBox
+      AnchorSideLeft.Control = rdgAngleType
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = rdgAngleType
+      AnchorSideTop.Side = asrCenter
+      Left = 158
+      Height = 28
+      Top = 22
+      Width = 110
+      BorderSpacing.Left = 6
+      ItemHeight = 20
+      Style = csDropDownList
+      TabOrder = 3
+    end
+    object rdgAngleType: TRadioGroup
+      Left = 3
+      Height = 66
+      Top = 3
+      Width = 149
+      Align = alLeft
+      AutoFill = True
+      BorderSpacing.Around = 2
+      Caption = 'Angle Type'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 41
+      ClientWidth = 145
+      ItemIndex = 0
+      Items.Strings = (
+        'Sexagedecimal'
+        'Radian'
+      )
+      TabOrder = 4
+    end
+  end
+  object memResult: TMemo
+    Left = 434
+    Height = 425
+    Top = 72
+    Width = 304
+    Align = alRight
+    TabOrder = 2
+  end
+end

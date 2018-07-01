@@ -1,0 +1,73 @@
+object FormResults: TFormResults
+  Left = 515
+  Height = 394
+  Top = 318
+  Width = 650
+  Caption = 'FormResults'
+  ClientHeight = 394
+  ClientWidth = 650
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  Visible = True
+  object stgResults: TStringGrid
+    Left = 394
+    Height = 376
+    Top = 8
+    Width = 248
+    ColCount = 3
+    FixedCols = 0
+    TabOrder = 0
+    Cells = (
+      3
+      0
+      0
+      'n'
+      1
+      0
+      'Xn'
+      2
+      0
+      'Error'
+    )
+  end
+  object EdiFx: TEdit
+    Left = 64
+    Height = 28
+    Top = 29
+    Width = 196
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 13
+    Height = 20
+    Top = 29
+    Width = 42
+    Caption = 'F(x) = '
+    ParentColor = False
+  end
+  object EdiGx: TEdit
+    Left = 64
+    Height = 28
+    Top = 64
+    Width = 196
+    TabOrder = 2
+  end
+  object btnGraph: TButton
+    Left = 104
+    Height = 31
+    Top = 144
+    Width = 94
+    Caption = 'Graph'
+    OnClick = btnGraphClick
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 20
+    Top = 64
+    Width = 45
+    Caption = 'G(x) = '
+    ParentColor = False
+  end
+end

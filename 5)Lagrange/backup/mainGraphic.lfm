@@ -1,0 +1,68 @@
+object frmMain: TfrmMain
+  Left = 207
+  Height = 704
+  Top = 183
+  Width = 1081
+  Caption = 'Graphics'
+  ClientHeight = 704
+  ClientWidth = 1081
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object chartGraphics: TChart
+    Left = 0
+    Height = 704
+    Top = 0
+    Width = 1081
+    AxisList = <    
+      item
+        Grid.Color = clSilver
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Grid.Color = clSilver
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clWhite
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Align = alClient
+    object chartGraphicsFuncSeries1: TFuncSeries
+      Active = False
+      OnCalculate = chartGraphicsFuncSeries1Calculate
+    end
+    object chartGraphicsFuncSeries2: TFuncSeries
+      Active = False
+      OnCalculate = chartGraphicsFuncSeries2Calculate
+    end
+    object chartGraphicsFuncSeries3: TFuncSeries
+      Active = False
+      OnCalculate = chartGraphicsFuncSeries3Calculate
+    end
+    object chartGraphicsConstantLine1: TConstantLine
+      Arrow.Visible = True
+      LineStyle = lsVertical
+      Position = 0
+    end
+    object chartGraphicsConstantLine2: TConstantLine
+      Arrow.Visible = True
+      Position = 0
+    end
+    object chartGraphicsLineSeries1: TLineSeries
+      Pointer.Brush.Color = 13553407
+      Pointer.Pen.Color = clRed
+      Pointer.Style = psCircle
+    end
+  end
+end

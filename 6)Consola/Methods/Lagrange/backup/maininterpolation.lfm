@@ -1,0 +1,226 @@
+object Lagrangefrm: TLagrangefrm
+  Left = 221
+  Height = 509
+  Top = 322
+  Width = 1138
+  Caption = 'Lagrangefrm'
+  ClientHeight = 509
+  ClientWidth = 1138
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object ediTotalPoints: TEdit
+    Left = 88
+    Height = 28
+    Top = 24
+    Width = 64
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '4'
+  end
+  object Label1: TLabel
+    Left = 23
+    Height = 20
+    Top = 25
+    Width = 48
+    Caption = '#Points'
+    ParentColor = False
+  end
+  object btnSetTotalPoints: TButton
+    Left = 168
+    Height = 32
+    Top = 24
+    Width = 55
+    Caption = 'Set'
+    OnClick = btnSetTotalPointsClick
+    TabOrder = 1
+  end
+  object stgPoints: TStringGrid
+    Left = 328
+    Height = 264
+    Top = 8
+    Width = 184
+    ColCount = 3
+    DefaultColWidth = 60
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 2
+    Cells = (
+      3
+      0
+      0
+      '      n'
+      1
+      0
+      '      x'
+      2
+      0
+      '      y'
+    )
+  end
+  object btnCalculate: TButton
+    Left = 48
+    Height = 55
+    Top = 160
+    Width = 190
+    Caption = 'Calculate'
+    OnClick = btnCalculateClick
+    TabOrder = 3
+  end
+  object edix: TEdit
+    Left = 88
+    Height = 28
+    Top = 96
+    Width = 64
+    Alignment = taRightJustify
+    Enabled = False
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 20
+    Top = 101
+    Width = 28
+    Caption = 'Add'
+    ParentColor = False
+  end
+  object ediy: TEdit
+    Left = 160
+    Height = 28
+    Top = 96
+    Width = 64
+    Alignment = taRightJustify
+    Enabled = False
+    TabOrder = 5
+  end
+  object btnAddPoint: TButton
+    Left = 248
+    Height = 31
+    Top = 96
+    Width = 56
+    Caption = 'Add'
+    OnClick = btnAddPointClick
+    TabOrder = 6
+  end
+  object ediPolinomy1: TEdit
+    Left = 72
+    Height = 28
+    Top = 326
+    Width = 423
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 20
+    Top = 334
+    Width = 38
+    Caption = 'Pol1='
+    ParentColor = False
+  end
+  object chrFunctionResult: TChart
+    Left = 552
+    Height = 483
+    Top = 5
+    Width = 568
+    AxisList = <    
+      item
+        Grid.Color = clSilver
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Grid.Color = clSilver
+        Alignment = calBottom
+        Arrow.Visible = True
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clHighlightText
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    Toolset = ChartToolset1
+    Color = clDefault
+    DragMode = dmAutomatic
+    ParentBiDiMode = False
+    object chrFunctionResultFuncSeries1: TFuncSeries
+      Active = False
+      OnCalculate = chrFunctionResultFuncSeries1Calculate
+      Pen.Color = clBlue
+    end
+    object chrFunctionResultFuncSeries2: TFuncSeries
+      Active = False
+      OnCalculate = chrFunctionResultFuncSeries2Calculate
+      Pen.Color = clRed
+    end
+    object chrFunctionResultConstantLine1: TConstantLine
+      Position = 0
+    end
+    object chrFunctionResultConstantLine2: TConstantLine
+      LineStyle = lsVertical
+      Position = 0
+    end
+    object chrFunctionResultConstantLine3: TConstantLine
+      LineStyle = lsVertical
+      Pen.Color = clBlue
+      Position = 0
+    end
+    object chrFunctionResultConstantLine4: TConstantLine
+      LineStyle = lsVertical
+      Pen.Color = clBlue
+      Position = 0
+    end
+    object chrFunctionResultConstantLine5: TConstantLine
+      LineStyle = lsVertical
+      Pen.Color = clRed
+      Position = 0
+    end
+    object chrFunctionResultConstantLine6: TConstantLine
+      LineStyle = lsVertical
+      Pen.Color = clRed
+      Position = 0
+    end
+    object chrFunctionResultLineSeries1: TLineSeries
+      ShowPoints = True
+    end
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 20
+    Top = 368
+    Width = 38
+    Caption = 'Pol2='
+    ParentColor = False
+  end
+  object ediPolinomy2: TEdit
+    Left = 72
+    Height = 28
+    Top = 362
+    Width = 423
+    Enabled = False
+    TabOrder = 9
+  end
+  object btnIntersect: TButton
+    Left = 88
+    Height = 31
+    Top = 232
+    Width = 94
+    Caption = 'Intersect'
+    OnClick = btnIntersectClick
+    TabOrder = 10
+  end
+  object ChartToolset1: TChartToolset
+    left = 496
+    top = 440
+    object ChartToolset1ZoomMouseWheelTool1: TZoomMouseWheelTool
+      ZoomFactor = 0.9
+    end
+  end
+end

@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="cmdbox"/>
+        <MinVersion Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="86">
+      <Unit0>
+        <Filename Value="CmdLineExample.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="28" Y="10"/>
+        <UsageCount Value="205"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="wnmainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="41" Y="318"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="wnmainform.lfm"/>
+        <UsageCount Value="13"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="tcmdbox.lrs"/>
+        <CursorPos X="17"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ucmdline.pas"/>
+        <CursorPos X="8" Y="30"/>
+        <UsageCount Value="7"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ucmdbox.pas"/>
+        <UnitName Value="uCmdBox"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2382"/>
+        <CursorPos Y="2401"/>
+        <UsageCount Value="23"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\lcl\include\application.inc"/>
+        <TopLine Value="91"/>
+        <CursorPos X="7" Y="128"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="functionparser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="functionParser"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="44" Y="34"/>
+        <UsageCount Value="203"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="adaptors.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="740"/>
+        <CursorPos X="10" Y="743"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="16" Y="125"/>
+        <UsageCount Value="7"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\functions\class_taylor.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="13"/>
+        <UsageCount Value="27"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\functions\parsemath.pas"/>
+        <UnitName Value="ParseMath"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos Y="49"/>
+        <UsageCount Value="69"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\functions\integrales.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="17" Y="14"/>
+        <UsageCount Value="68"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\IntegrationMethods\graphicIntegral.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="4"/>
+        <UsageCount Value="64"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\IntegrationMethods\graphicIntegral.pas"/>
+        <ComponentName Value="frmGraficadora"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="196"/>
+        <CursorPos X="15" Y="201"/>
+        <UsageCount Value="64"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7043"/>
+        <CursorPos Y="7063"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\functions\logicinterpolation.pas"/>
+        <UnitName Value="LogicInterpolation"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="11"/>
+        <UsageCount Value="11"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\functions\matrix.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="39" Y="9"/>
+        <UsageCount Value="61"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\functions\class_bolzano.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="56" Y="7"/>
+        <UsageCount Value="4"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\functions\newtongen_matrix.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="42" Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\NewtonGen\main.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="42"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\NewtonGen\main.pas"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16" Y="34"/>
+        <UsageCount Value="42"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\NewtonGen\newton_gen_matrix.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="4"/>
+        <UsageCount Value="42"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\NewtonGen\newtongenmethod.pas"/>
+        <UnitName Value="NewtonGenMethod"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="24"/>
+        <UsageCount Value="42"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="40" Y="4971"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\Lagrange\logicinterpolation.pas"/>
+        <UnitName Value="LogicInterpolation"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="11"/>
+        <UsageCount Value="41"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\Lagrange\maininterpolation.lfm"/>
+        <ComponentName Value="Lagrangefrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="41"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\Lagrange\maininterpolation.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="mainInterpolation"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="15"/>
+        <UsageCount Value="41"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="458"/>
+        <CursorPos Y="480"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="2"/>
+        <UsageCount Value="6"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\taylor\class_taylor.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="18"/>
+        <UsageCount Value="40"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\taylor\maintaylor.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="40"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\taylor\maintaylor.pas"/>
+        <ComponentName Value="frmTaylor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="30" Y="94"/>
+        <UsageCount Value="40"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\methods_oc\class_bolzano.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="224"/>
+        <CursorPos X="16" Y="255"/>
+        <UsageCount Value="40"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\methods_oc\main.lfm"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="2"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\methods_oc\main.pas"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="5"/>
+        <UsageCount Value="6"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\methods_oc\table.lfm"/>
+        <ComponentName Value="FormResults"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="40"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\methods_oc\table.pas"/>
+        <ComponentName Value="FormResults"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Table"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39"/>
+        <CursorPos X="65" Y="32"/>
+        <UsageCount Value="40"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\packages\fcl-base\src\fpexprpars.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1526"/>
+        <CursorPos Y="1546"/>
+        <UsageCount Value="12"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\stringl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1197"/>
+        <CursorPos X="18" Y="1206"/>
+        <UsageCount Value="10"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\Diferenciables\maindiferenciables.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="30"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\Diferenciables\maindiferenciables.pas"/>
+        <ComponentName Value="Diferenciablefrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mainDiferenciables"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="88"/>
+        <CursorPos X="8" Y="98"/>
+        <UsageCount Value="30"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\Diferenciables\methodsDif.pas"/>
+        <UnitName Value="MethodsDif"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="226"/>
+        <CursorPos X="9" Y="248"/>
+        <UsageCount Value="30"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\methods_oc\MethodsOCmain.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="25"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\methods_oc\MethodsOCmain.pas"/>
+        <ComponentName Value="MethodsOCfrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="78"/>
+        <CursorPos X="19" Y="122"/>
+        <UsageCount Value="25"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10580"/>
+        <CursorPos Y="10600"/>
+        <UsageCount Value="5"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\Methods\taylor\maintaylor.pas"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\Methods\taylor\class_taylor.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\Methods\taylor\maintaylor.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\Methods\IntegrationMethods\graphicIntegral.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\Methods\IntegrationMethods\graphicIntegral.pas"/>
+        <ComponentName Value="frmGraficadora"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="245"/>
+        <CursorPos X="24" Y="251"/>
+        <UsageCount Value="199"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\Methods\methods_oc\class_bolzano.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="2"/>
+        <UsageCount Value="200"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\Methods\methods_oc\MethodsOCmain.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\Methods\methods_oc\MethodsOCmain.pas"/>
+        <ComponentName Value="MethodsOCfrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="27" Y="100"/>
+        <UsageCount Value="199"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\Methods\methods_oc\table.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\Methods\methods_oc\table.pas"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\Methods\NewtonGen\main.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\Methods\NewtonGen\main.pas"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="15" Y="121"/>
+        <UsageCount Value="199"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\Methods\NewtonGen\newton_gen_matrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="200"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\Methods\NewtonGen\newtongenmethod.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NewtonGenMethod"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="140"/>
+        <UsageCount Value="200"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\Methods\Lagrange\logicinterpolation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LogicInterpolation"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="25" Y="40"/>
+        <UsageCount Value="200"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="..\Methods\Lagrange\maininterpolation.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\Methods\Lagrange\maininterpolation.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="mainInterpolation"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="109"/>
+        <CursorPos X="21" Y="122"/>
+        <UsageCount Value="199"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="..\Methods\functions\integrales.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="64" Y="109"/>
+        <UsageCount Value="200"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\Methods\functions\matrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="7"/>
+        <UsageCount Value="200"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="..\Methods\functions\parsemath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ParseMath"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="53" Y="12"/>
+        <UsageCount Value="200"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="..\Methods\Diferenciables\maindiferenciables.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="199"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="..\Methods\Diferenciables\maindiferenciables.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="mainDiferenciables"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="20" Y="92"/>
+        <UsageCount Value="199"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="..\Methods\Diferenciables\methodsDif.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MethodsDif"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="12" Y="107"/>
+        <UsageCount Value="200"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="assignparser.pas"/>
+        <UnitName Value="StatementParser"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="8" Y="5"/>
+        <UsageCount Value="126"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="C:\lazarus\components\tachart\tachartaxis.pas"/>
+        <UnitName Value="TAChartAxis"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="66" Y="6"/>
+        <UsageCount Value="10"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="funtorf.pas"/>
+        <UnitName Value="funtorF"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="6"/>
+        <UsageCount Value="2"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="assignsys.pas"/>
+        <UnitName Value="assignSys"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6"/>
+        <UsageCount Value="31"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="variablesys.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="variableSys"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="109"/>
+        <CursorPos X="22" Y="122"/>
+        <UsageCount Value="176"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="superexpressionparser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SuperExpressionParser"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="35" Y="77"/>
+        <UsageCount Value="168"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="COPYING.LESSER"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="StatementParser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="22" Y="48"/>
+        <UsageCount Value="154"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="expressionParser.pas"/>
+        <UnitName Value="assignSys"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="33"/>
+        <UsageCount Value="7"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="..\Methods\functions\fpexprpars_multiarguments.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="45" Y="1408"/>
+        <UsageCount Value="81"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="C:\lazarus\components\tachart\taseries.pas"/>
+        <UnitName Value="TASeries"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="326"/>
+        <CursorPos Y="623"/>
+        <UsageCount Value="9"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="presuperparser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PreSuperParser"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="130"/>
+        <CursorPos X="34" Y="145"/>
+        <UsageCount Value="74"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="C:\lazarus\lcl\include\interfacebase.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos Y="54"/>
+        <UsageCount Value="6"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\reader.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1653"/>
+        <CursorPos Y="1673"/>
+        <UsageCount Value="7"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\classes\compon.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="298"/>
+        <CursorPos Y="318"/>
+        <UsageCount Value="7"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2596"/>
+        <CursorPos X="13" Y="2618"/>
+        <UsageCount Value="10"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="..\Methods\SEDO\sedo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SEDO"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="5"/>
+        <UsageCount Value="22"/>
+      </Unit85>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="wnmainform.pas"/>
+        <Caret Line="364" Column="11" TopLine="338"/>
+      </Position1>
+      <Position2>
+        <Filename Value="wnmainform.pas"/>
+        <Caret Line="362" Column="3" TopLine="342"/>
+      </Position2>
+      <Position3>
+        <Filename Value="wnmainform.pas"/>
+        <Caret Line="368" Column="11" TopLine="347"/>
+      </Position3>
+      <Position4>
+        <Filename Value="wnmainform.pas"/>
+        <Caret Line="32" Column="54"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <OtherUnitFiles Value="..\IntegrationMethods;..\taylor;..\methods_oc;..\Methods\IntegrationMethods;..\Methods\methods_oc;..\Methods\NewtonGen;..\Methods\Lagrange;..\Methods\functions;..\Methods\Diferenciables;..\Methods\SEDO"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <VerifyObjMethodCallValidity Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath) "/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+      <Item3>
+        <Name Value="Exception"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
